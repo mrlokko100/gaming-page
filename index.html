@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<title>অনলাইন গেমিং অভিজ্ঞতা</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+  font-family:'Segoe UI',system-ui,sans-serif;
+  background:radial-gradient(circle at top,#0f2027,#000,#000);
+  color:#fff;
+}
+.app{
+  max-width:430px;
+  margin:18px auto;
+  background:rgba(15,23,42,.92);
+  backdrop-filter:blur(14px);
+  border-radius:28px;
+  overflow:hidden;
+  box-shadow:0 35px 90px rgba(0,0,0,.95);
+}
+.hero{
+  padding:42px 22px;
+  text-align:center;
+  background:linear-gradient(135deg,#ff512f,#f09819);
+}
+.hero h1{
+  font-size:30px;
+  font-weight:900;
+}
+.hero p{
+  margin-top:10px;
+  font-size:14px;
+  opacity:.95;
+}
+.content{
+  padding:22px;
+  text-align:center;
+}
+.content p{
+  font-size:15px;
+  line-height:1.8;
+  color:#e5e7eb;
+}
+.grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:14px;
+  margin:22px 0;
+}
+.box{
+  background:rgba(255,255,255,.06);
+  border-radius:18px;
+  padding:14px;
+  font-size:13px;
+  text-align:left;
+}
+.box span{
+  display:block;
+  font-size:15px;
+  font-weight:900;
+  color:#4ade80;
+}
+.bonus{
+  margin:24px 0;
+  padding:22px;
+  border-radius:22px;
+  background:linear-gradient(135deg,#064e3b,#22c55e);
+  font-size:18px;
+  font-weight:900;
+  animation:boost 2s infinite;
+}
+@keyframes boost{
+  0%{box-shadow:0 0 0 rgba(34,197,94,0)}
+  50%{box-shadow:0 0 30px rgba(34,197,94,.85)}
+  100%{box-shadow:0 0 0 rgba(34,197,94,0)}
+}
+.promo{
+  margin:22px 0;
+  padding:22px;
+  border-radius:22px;
+  background:#020617;
+  border:2px solid #4ade80;
+  position:relative;
+}
+.promo::before{
+  content:"OFFICIAL PROMO CODE";
+  position:absolute;
+  top:-10px;
+  left:50%;
+  transform:translateX(-50%);
+  background:#020617;
+  padding:2px 10px;
+  font-size:11px;
+  letter-spacing:1px;
+  color:#86efac;
+}
+.promo small{
+  display:block;
+  font-size:13px;
+  opacity:.9;
+}
+.code{
+  margin-top:10px;
+  font-size:30px;
+  font-weight:900;
+  letter-spacing:4px;
+  color:#4ade80;
+  text-shadow:0 0 15px rgba(74,222,128,.8);
+}
+.cta{
+  display:block;
+  margin:28px 0 16px;
+  padding:20px;
+  background:linear-gradient(135deg,#22c55e,#bef264);
+  color:#000;
+  text-decoration:none;
+  font-size:20px;
+  font-weight:900;
+  border-radius:22px;
+  transition:.25s;
+}
+.cta:hover{transform:scale(1.05)}
+.urgency{
+  font-size:14px;
+  font-weight:700;
+  color:#facc15;
+}
+.footer{
+  padding:16px;
+  font-size:12px;
+  color:#9ca3af;
+  text-align:center;
+  background:rgba(0,0,0,.6);
+}
+.toast{
+  position:fixed;
+  bottom:20px;
+  left:50%;
+  transform:translateX(-50%);
+  background:#020617;
+  padding:14px 20px;
+  border-radius:20px;
+  font-size:13px;
+  display:none;
+  box-shadow:0 20px 60px rgba(0,0,0,.9);
+  z-index:999;
+}
+</style>
+</head>
+
+<body>
+
+<div class="app">
+  <div class="hero">
+    <h1>🎮 অনলাইন গেমিং অভিজ্ঞতা</h1>
+    <p>🔥 স্মার্ট প্লেয়ারদের জন্য এক্সক্লুসিভ সুযোগ</p>
+  </div>
+
+  <div class="content">
+    <p>
+      🚀 আপনি যদি এমন একটি অনলাইন গেমিং প্ল্যাটফর্ম চান  
+      যেখানে <b>রোমাঞ্চ, গতি ও নির্ভরযোগ্যতা</b> একসাথে পাওয়া যায় —  
+      তাহলে আজই শুরু করুন।
+    </p>
+
+    <div class="grid">
+      <div class="box">⚡ <span>Instant</span> দ্রুত গেমিং</div>
+      <div class="box">📱 <span>Mobile-First</span> ফোনে পারফেক্ট</div>
+      <div class="box">🎯 <span>Skill Game</span> বুদ্ধির খেলা</div>
+      <div class="box">🔐 <span>Trusted</span> সুরক্ষিত সিস্টেম</div>
+    </div>
+
+    <div class="bonus">
+      🎁 একাউন্ট খুললেই সর্বোচ্চ ১০,০০০ টাকা পর্যন্ত বোনাস পাওয়ার সুযোগ!
+    </div>
+
+    <div class="promo">
+      <small>রেজিস্ট্রেশনের সময় এই প্রোমো কোডটি ব্যবহার করুন</small>
+      <div class="code">SD72</div>
+    </div>
+
+    <a href="https://reffpa.com/L?tag=d_5148775m_97c_&site=5148775&ad=97" target="_blank" class="cta">
+      🚀 এখনই একাউন্ট খুলুন
+    </a>
+
+    <div class="urgency">
+      ⏳ সীমিত সময়ের অফার • প্রতিদিন নতুন প্লেয়ার জয়েন করছে
+    </div>
+  </div>
+
+  <div class="footer">
+    18+ ব্যবহারকারীদের জন্য। বোনাস শর্ত প্রযোজ্য।<br>
+    দায়িত্বশীলভাবে গেম খেলুন।
+  </div>
+</div>
+
+<div class="toast" id="toast">🔥 একজন প্লেয়ার এইমাত্র বোনাস নিয়ে জয়েন করেছে</div>
+
+<script>
+setInterval(()=>{
+  const t=document.getElementById("toast");
+  t.style.display="block";
+  setTimeout(()=>{t.style.display="none"},3200);
+},8500);
+</script>
+
+</body>
+</html>
